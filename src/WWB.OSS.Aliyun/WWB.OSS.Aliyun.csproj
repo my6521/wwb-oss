@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	  <PackageId>WWB.OSS.Aliyun</PackageId>
+	  <Version>1.0.0-preview02</Version>
+	  <Authors>my6521</Authors>
+	  <Description>阿里云OSS</Description>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <RepositoryUrl>https://github.com/my6521/wwb-oss</RepositoryUrl>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Aliyun.OSS.SDK.NetCore" Version="2.13.0" />
+		<PackageReference Include="WWB.OSS" Version="1.0.0-preview02" />
+	</ItemGroup>
+</Project>

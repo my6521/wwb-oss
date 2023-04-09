@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WWB.OSS.Aliyun\WWB.OSS.Aliyun.csproj" />
+    <ProjectReference Include="..\WWB.OSS.Baidu\WWB.OSS.Baidu.csproj" />
+    <ProjectReference Include="..\WWB.OSS.Huawei\WWB.OSS.Huawei.csproj" />
+    <ProjectReference Include="..\WWB.OSS.Minio\WWB.OSS.Minio.csproj" />
+    <ProjectReference Include="..\WWB.OSS.QCloud\WWB.OSS.QCloud.csproj" />
+    <ProjectReference Include="..\WWB.OSS.Qiniu\WWB.OSS.Qiniu.csproj" />
+  </ItemGroup>
+
+
+</Project>
