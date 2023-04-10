@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="WWB.OSS" Version="1.0.0-preview02" />
+    <ProjectReference Include="..\WWB.OSS\WWB.OSS.csproj" />
   </ItemGroup>
 
 </Project>
